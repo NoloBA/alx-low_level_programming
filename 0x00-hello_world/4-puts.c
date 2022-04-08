@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - print programming is like...
  *
- * Print programming is like...
+ * Return 0 in exit
  */
 int main(void)
 {
