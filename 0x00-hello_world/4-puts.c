@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - print programming is like...
+ * main - "Print programming is like building a multilingual puzzle"
  *
- * Return 0 in exit
+ * Return: 0 Always (success)
  */
 int main(void)
 {
