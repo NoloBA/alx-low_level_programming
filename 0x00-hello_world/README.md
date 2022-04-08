@@ -1,1 +1,1 @@
-Building hello world :)
+This is the first attemot at C
