@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *main - N is assigned and initialised, then run according to the stipulated conditions
- *
+ *main - N is assigned and initialised,
+ *then run according to the stipulated conditions
  * Return: 0 (Success)
  */
 int main(void)
