@@ -5,17 +5,16 @@
  *value remains char but datatype convert to int as defined
  *Return: 0 (Success)
  */
-int main()
-{ 
-	
+int main(void)
+{
 	int i;
-	for(i='0'; i<='9'; i++) 
+
+	for (i = '0'; i <= '9'; i++)
 	{
 		putchar(i);
 	}
 	putchar('\n');
 	return (0);
-
 }
 
 
