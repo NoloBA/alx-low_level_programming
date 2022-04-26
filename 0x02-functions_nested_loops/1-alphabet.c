@@ -1,7 +1,5 @@
 #include "main.h"
 /**
- * main - print alphabet in lowercase func
- *
  * print_alphabet - function prototype
  *
  * Return: Always 0 - Success
