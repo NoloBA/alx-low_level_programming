@@ -1,13 +1,11 @@
 #include "main.h"
 
 /**
- * print_sign print + positive, - negative, 0 zero
- *
- * @n: value for checking
- *
+ * print_sign - print + positive, - negative, 0 zero
+ * Description: print number sign
+ * @n: value checked
  * Return: int
  */
-
 
 int print_sign(int n)
 {
