@@ -2,7 +2,6 @@
 
 /**
  * more_numbers - print more numbers..
- * CyberTech (file)
  * Return: no return
  */
 
