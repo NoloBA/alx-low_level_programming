@@ -1,31 +1,26 @@
-#include <stdio.h>
 #include "main.h"
-
+#include <stdio.h>
 /**
- * main - Enrty
+ * FizzBuzz
  *
- * Description: prints the numbers 1 - 100 w/
- * Fizz for multiples of 3, Buzz for multiple of 5,
- * and FizzBuzz for multiple of both
- *
- * Return: always 0
+ * A program that prints the numbers from 1 to 100.
+ * Multiples of three print “Fizz” and multiples of five print “Buzz”.
+ * For numbers which are multiples of both three and five print “FizzBuzz”.
  */
+
 int main(void)
 {
-int i;
-for (i = 0; i <= 100; i++)
-{
-if (i % 15 == 0)
-printf("FizzBuzz");
-else if (i % 3 == 0)
-printf("Fizz");
-else if (i % 5 == 0)
-printf("Buzz");
-else
-printf("%i", i);
-if (i < 100)
-printf(" ");
-}
-printf("\n");
-return (0);
+	int i;
+	for (i = 1; i <= 100; i++) {
+        if (i % 15 == 0) {
+            printf("FizzBuzz\n");
+        } else if (i % 3 == 0) {
+            printf("Fizz\n");
+        } else if (i % 5 == 0){
+            printf("Buzz\n");
+        } else {
+            printf("%u\n", i);
+        }
+    }
+    return 0;
 }
